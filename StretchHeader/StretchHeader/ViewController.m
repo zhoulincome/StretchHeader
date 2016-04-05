@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "HFStretchableTableHeaderView.h"
 
-#define StretchHeaderHeight 200
+#define StretchHeaderHeight 100
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 
@@ -57,9 +57,13 @@
     bgImageView.image = [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"photo" ofType:@"jpg"]];
     
     //背景之上的内容
+    
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(20, 40, [[UIScreen mainScreen] bounds].size.width, 20)];
+    label.text = @"sadadsdada";
+    label.textAlignment = NSTextAlignmentCenter;
     UIView *contentView = [[UIView alloc] initWithFrame:bgImageView.bounds];
     contentView.backgroundColor = [UIColor clearColor];
-    
+    [contentView addSubview:label];
     /*
     UIImageView *avater = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 90, 90)];
     avater.image = [UIImage imageNamed:@"avater"];
@@ -67,7 +71,7 @@
     [contentView addSubview:avater];
     */
     
-    self.stretchHeaderView = [HFStretchableTableHeaderView new];
+    self.stretchHeaderView = [[HFStretchableTableHeaderView alloc] init];
     [self.stretchHeaderView stretchHeaderForTableView:self.mineTable withView:bgImageView subViews:contentView];
     
 }
