@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
 s.name         = "ZLStretchHeader"
 s.version      = "1.0.0"
-s.summary      = "这是一个可拉伸的view，主要放在UITableView的header处。"
-s.description  = "这是一个可拉伸的view，主要放在UITableView的header处。"
+s.summary      = "this is a stretchable view in tableviewHeader,enlarge the view"
+s.description  = "this is a stretchable view in tableviewHeader,enlarge the view"
 s.homepage     = "https://github.com/ChenYilong/CYLTabBarController"
 s.license      = { :type => 'MIT', :file => 'LICENSE' }
 s.author       = { "ZhouLin" => "359344816@qq.com" }
