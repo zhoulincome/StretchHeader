@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "ZLStretchHeader"
-s.version      = "1.0.0"
+s.version      = "1.0.1"
 s.summary      = "这是一个可拉伸的view，主要放在UITableView的header处。"
 s.description  = "这是一个可拉伸的view，主要放在UITableView的header处。"
 s.homepage     = "https://github.com/ChenYilong/CYLTabBarController"
