@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
 s.name         = "ZLStretchHeader"
 s.version      = "1.0.0"
-s.summary      = "Highly customizable tabBar and tabBarController for iOS"
-s.description  = "CYLTabBarController is iPad and iPhone compatible. Supports landscape and portrait orientations and can be used inside UINavigationController."
+s.summary      = "这是一个可拉伸的view，主要放在UITableView的header处。"
+s.description  = "这是一个可拉伸的view，主要放在UITableView的header处。"
 s.homepage     = "https://github.com/ChenYilong/CYLTabBarController"
 s.license      = { :type => 'MIT', :file => 'LICENSE' }
 s.author       = { "ZhouLin" => "359344816@qq.com" }
