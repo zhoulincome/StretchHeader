@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "ZLStretchHeader"
-s.version      = "1.0.0"
+s.version      = "1.0.1"
 s.summary      = "this is a stretchable view in tableviewHeader,enlarge the view"
 s.description  = "this is a stretchable view in tableviewHeader,enlarge the view"
 s.homepage     = "https://github.com/ChenYilong/CYLTabBarController"
